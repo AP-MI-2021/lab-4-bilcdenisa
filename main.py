@@ -137,7 +137,8 @@ def test_palindroame_obtinute_in_urma_concatenarii():
 
 def lista_inlocuita_cu_oglindit(lista, lista3):
     '''
-    Determina o lista obtinuta prin inlocuirea
+    Determina o lista obtinuta prin inlocuirea elementelor dintr-o alta lista cu oglinditul lor daca respecta conditia:regulă: elementele sunt divizibile
+    cu toate elementele dintr-o a2a lista. Dacă nu îndeplinesc regula, păstrați elementul așa cum e.
     :param lista1: prima lista initiala de int-uri
     :param lista2: a 2-a lista initiala de int-uri
     :param lista3: a 3-a lista initiala de int-uri
